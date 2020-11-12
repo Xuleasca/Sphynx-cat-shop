@@ -35,17 +35,40 @@ body {
     height: 400px;
     
 }
-.color-button, .name-button, .change-pic, .discount {
-    width: 15em;
-    padding: 5px;
-    margin: 10px auto;
-    box-sizing: content-box;
+button {
+    box-shadow: 0px 10px 14px -7px gray;
+	background:linear-gradient(to bottom, pink 5%, gray 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 15px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px pink;
+    margin: 5px;
+    
 }
+
+button:hover {
+	background:linear-gradient(to bottom, #C33984 5%, gray 100%);
+	background-color:#408c99;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
 .dept {
     width: 150px;
     height: 120px;
     margin: 5px;
     box-sizing: content-box;
+    border-radius: 10%;
 }
 
 img:hover {
@@ -55,11 +78,13 @@ img:hover {
 #jumper{
   width: 200px;
   height: auto;
+  border-radius: 10%;
 }
 #angry-cat{
     width: 200px;
     height: auto;
     margin-bottom: 1em;
+    border-radius: 10%;
 }
 
 .block-element-1 {
@@ -135,3 +160,10 @@ h1{
    
     
 }
+
+
+/* 
+
+
+
+         */
